@@ -47,6 +47,10 @@ Selenium-Automation-Practice/
 
 # ⚙️ Getting Started
 
+### 0️⃣ Fork This Repository
+
+Click Fork button 
+
 ### 1️⃣ Clone the Repository
 
 ```bash
