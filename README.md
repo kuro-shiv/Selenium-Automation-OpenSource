@@ -49,7 +49,8 @@ Selenium-Automation-Practice/
 
 ### 0️⃣ Fork This Repository
 
-Click Fork button 
+Click the **Fork** button at the top right of this page to create your own copy of the repository on GitHub.  
+This lets you make changes and contribute without affecting the original project.
 
 ### 1️⃣ Clone the Repository
 
