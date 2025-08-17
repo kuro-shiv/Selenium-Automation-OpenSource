@@ -1,27 +1,29 @@
 # 🚀 Selenium Automation Practice Repository
 
-Welcome to the **Selenium Automation Open-Source Practice Repository** 🎉  
-This project is designed for learners who want to practice **Selenium with Python** using real websites.  
-It is linked with my tutorials on [My Blog](https://aigen023.blogspot.com/), where you can learn concepts step by step and run them here.
+**Learn Selenium with Python using real-world websites!**  
+Practice, contribute, and master browser automation with hands-on examples.  
+Linked with [Next-Gen AI Blog](https://aigen023.blogspot.com/) and [Automation_Selenium_Python](https://github.com/kuro-shiv/Automation_Selenium_Python).
 
 ---
 
-# 📌 Why This Repo?
-- ✅ Hands-on Selenium practice with **real websites**
-- 📈 Beginner → Advanced structured examples
-- 🤝 Open for contributions (add new test cases, improve docs, fix bugs)
-- 🔗 Directly connected to my **learning course/blog**
+## ⭐ Why Star This Repo?
+
+- **Real Selenium Projects:** Practice automation on actual websites.
+- **Beginner to Advanced:** Structured examples for all skill levels.
+- **Open Source & Community Driven:** Contribute, suggest, and collaborate.
+- **Linked Tutorials:** Step-by-step guides on [My Blog](https://aigen023.blogspot.com/).
+- **SEO Keywords:** Selenium, Python, Automation, Testing, Open Source, Practice, Tutorial.
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```
 Selenium-Automation-Practice/
-│── README.md                # Documentation (you are here)
+│── README.md                # Documentation
 │── requirements.txt         # Dependencies
 │── .gitignore               # Ignore unnecessary files
-│── CONTRIBUTING.md          # Guidelines for contributors
+│── CONTRIBUTING.md          # How to contribute
 │
 ├── basics/                  # Beginner level tests
 │   ├── test_open_browser.py
@@ -45,14 +47,12 @@ Selenium-Automation-Practice/
 
 ---
 
-# ⚙️ Getting Started
+## ⚡ Getting Started
 
-### 0️⃣ Fork This Repository
+### 1️⃣ Fork & Clone
 
-Click the **Fork** button at the top right of this page to create your own copy of the repository on GitHub.  
-This lets you make changes and contribute without affecting the original project.
-
-### 1️⃣ Clone the Repository
+Click **Fork** (top right) to create your copy.  
+Then clone:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Selenium-Automation-Practice.git
@@ -61,16 +61,16 @@ cd Selenium-Automation-Practice
 
 ### 2️⃣ Install Dependencies
 
-Make sure you have Python 3.8+ installed. Then run:
+Python 3.8+ required.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**Dependencies included:**
-- 🐍 selenium → Browser automation
-- 🧪 pytest → Testing framework
-- 📊 pytest-html → Generate test reports
+**Main Packages:**
+- `selenium` – Browser automation
+- `pytest` – Testing framework
+- `pytest-html` – HTML test reports
 
 ### 3️⃣ Run Your First Test
 
@@ -78,30 +78,27 @@ pip install -r requirements.txt
 pytest basics/test_open_browser.py --html=report.html
 ```
 
-📄 After running, open `report.html` in your browser to see results ✅
+Open `report.html` in your browser to view results.
 
 ---
 
-# 🌐 Testing Sites Used
+## 🌐 Practice Websites
 
-We use multiple public websites for practice:
-
-- 🔗 Herokuapp → Elements, Alerts, Login tests
-- 🔗 OrangeHRM Demo → Login/HRM workflows
-- 🔗 FormSite Demo → Forms & input fields
-- 🔗 SauceDemo → E-commerce flows
-- 🔗 jQueryUI → Drag & drop, sliders
-- 🔗 Google → Search automation
-- 🔗 Playwright → Compare Selenium vs Playwright
-- 🔗 My Blog → Course reference
+- [Herokuapp](https://the-internet.herokuapp.com/) – Elements, Alerts, Login
+- [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/) – HRM workflows
+- [FormSite Demo](https://www.formsite.com/) – Forms & inputs
+- [SauceDemo](https://www.saucedemo.com/) – E-commerce flows
+- [jQueryUI](https://jqueryui.com/droppable/) – Drag & drop, sliders
+- [Google](https://www.google.co.in/) – Search automation
+- [Playwright](https://playwright.dev/) – Compare Selenium vs Playwright
+- [My Blog](https://aigen023.blogspot.com/) – Tutorials & exercises
 
 ---
 
-# 📝 Example Test Case
-
-`basics/test_open_browser.py`:
+## 📝 Example Test Case
 
 ```python
+# basics/test_open_browser.py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -118,62 +115,84 @@ def test_open_google():
 
 ---
 
-# 📖 Learning Path (Linked with Blog)
+## 📖 Learning Path
 
-- 📕 Basics: Browser & Locators → `basics/` folder
-- 📗 Intermediate: Forms & Login → `intermediate/` folder
-- 📘 Advanced: Waits, iFrames, Uploads → `advanced/` folder
+- **Basics:** Browser, Locators → `basics/`
+- **Intermediate:** Forms, Login → `intermediate/`
+- **Advanced:** Waits, iFrames, Uploads → `advanced/`
+- **Tutorials:** [Next-Gen AI Blog](https://aigen023.blogspot.com/)
 
 ---
 
-# 🤝 Contributing
+## 🤝 How to Contribute
 
 We ❤️ contributions!
 
-1. 🍴 Fork this repo
-2. 🌱 Create a new branch (`feature-new-test`)
-3. 📝 Add your test script in the correct folder
-4. ✅ Run and verify with pytest
-5. 💾 Commit & push:
-
+1. **Fork** the repo
+2. **Create a branch:** `feature-your-feature`
+3. **Add your test** in the right folder
+4. **Run & verify** with pytest
+5. **Commit & push:**
     ```bash
     git add .
     git commit -m "Added new test case for dropdown"
-    git push origin feature-new-test
+    git push origin feature-your-feature
     ```
-
-6. 🔀 Open a Pull Request 🎉
-
-👉 See `CONTRIBUTING.md` for full details.
+6. **Open a Pull Request**  
+   See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
-# 📊 Reporting
+## 📊 Test Reporting
 
-Generate an HTML report for test results:
+Generate an HTML report:
 
 ```bash
 pytest --html=report.html
 ```
 
-Open `report.html` in a browser.
+Open `report.html` in your browser.
 
 ---
 
-# 📜 License
+## 📜 License
 
-📄 This project is open source under the MIT License.  
-You are free to use, modify, and distribute with attribution.
-
----
-
-# 🙌 Credits
-
-👨‍💻 Maintainer: Shivam Dubey  
-📚 Course & Tutorials: My Blog
-
-⭐ If you like this project, please star the repo! ⭐
+MIT License – Free to use, modify, and distribute with attribution.
 
 ---
 
-  
+## 🙌 Credits
+
+- **Maintainer:** [Shivam Kumar Dubey](https://github.com/kuro-shiv)
+- **Blog & Tutorials:** [Next-Gen AI](https://aigen023.blogspot.com/)
+- **Related Repo:** [Automation_Selenium_Python](https://github.com/kuro-shiv/Automation_Selenium_Python)
+
+---
+
+## ⭐ Star & Share!
+
+If you find this project helpful, **star the repo** and share with others!  
+Help us grow the Selenium automation community 🚀
+
+---
+
+## 🔎 Recommended GitHub Topics
+
+```
+selenium
+python
+automation
+testing
+pytest
+open-source
+practice
+tutorial
+webdriver
+qa
+```
+
+---
+
+**Boost your skills. Contribute. Star. Share.**  
+Happy Testing!
+
