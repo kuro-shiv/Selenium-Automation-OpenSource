@@ -1,0 +1,48 @@
+{
+  "google": {
+    "search_queries": [
+      "Selenium automation with Python",
+      "Playwright vs Selenium",
+      "Best open source testing tools"
+    ]
+  },
+
+  "orangehrm": {
+    "valid_user": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalid_user": {
+      "username": "fakeuser",
+      "password": "wrongpass"
+    }
+  },
+
+  "saucedemo": {
+    "valid_user": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "locked_user": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "products_to_add": [
+      "Sauce Labs Backpack",
+      "Sauce Labs Bike Light"
+    ]
+  },
+
+  "formsite": {
+    "personal_info": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "9876543210"
+    },
+    "preferences": {
+      "newsletter": true,
+      "contact_method": "Email"
+    }
+  }
+}
